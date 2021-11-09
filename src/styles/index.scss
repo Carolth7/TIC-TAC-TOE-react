@@ -1,0 +1,101 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+
+Body{
+    background-color: #fdb607;
+    font-family: 'Cinzel', serif;
+}
+// .modal-icon{
+//     background-color: black;
+//     font-size: 3.5rem;
+//     border-radius: 1rem;
+//     margin-top:1rem
+// }
+// .bg-modal{
+//     background-color: rgba(64, 93, 129, 0.979);
+// }
+// .button-color {
+//     background-color: rgb(180, 176, 176);
+// }
+// .button-color:hover{
+//     background-color: grey;
+// }
+.game{
+    display:flex;
+    flex-direction: column; 
+    text-align: center;
+    margin:auto;
+    width: 30rem;
+    @media only screen and (max-width:425px) {
+        width: 95%;
+    }
+}
+.text{
+    color: rgb(65, 65, 65);
+    font-size: 1.5rem;
+    margin: 1rem auto;
+}
+.board{
+    height: 30rem;
+    width: 30rem;
+    @media only screen and (max-width:425px) {
+        height: 21rem;
+        width: 21rem;
+    }
+    margin: auto;
+}
+.square{
+    border: solid orange;
+    border-width: 2px;
+    font-size: 6rem;
+    margin: 0;
+    width: 13rem;
+    height: 13rem;
+    @media only screen and (max-width:425px) {
+        font-size: 4.5rem;
+        height: 7rem;
+        width: 7rem;
+    }
+background-color: white;
+padding-top: 1.5rem;
+padding-left: 1.5rem;
+}
+// .fa-star{
+//     color: rgb(180, 176, 176);
+// }
+// .fa-moon{
+//     color: rgb(180, 176, 176);
+// }
+
+
+img {
+    border-width: 1px;
+    font-size: 6rem;
+    margin: 0;
+    width: 10rem;
+    height: 10rem;
+    @media only screen and (max-width:425px) {
+        font-size: 4.5rem;
+        height: 7rem;
+        width: 7rem;
+    }
+}
+
+.state {
+    font-size:xx-large;
+    justify-content: center;
+    display: flex;
+    padding-top: 3rem;
+}
+
+.logo {
+    width: auto;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
